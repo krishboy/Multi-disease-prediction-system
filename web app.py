@@ -6,8 +6,8 @@ from streamlit_option_menu import option_menu
 st.set_page_config(page_title="Your Fav Health Assistant",
                    layout="wide",
                    page_icon="👨‍⚕️")
-diabetes_model = pickle.load(open('/Users/a.leelakrishnareddy/Desktop/Multi disease prediction system/trained_model1.sav', 'rb'))
-parkinsons_model = pickle.load(open('/Users/a.leelakrishnareddy/Desktop/Multi disease prediction system/trained_model2.sav', 'rb'))
+diabetes_model = pickle.load(open('trained_model1.sav', 'rb'))
+parkinsons_model = pickle.load(open('trained_model2.sav', 'rb'))
 with st.sidebar:
     selected = option_menu('Multiple Disease Prediction System by Krishna',
 
