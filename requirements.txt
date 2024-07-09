@@ -1,5 +1,5 @@
 numpy==2.0.0
-streamlit==1.36.0
+streamlit==1.9.2
 streamlit-option-menu==0.3.13
 scikit-learn==1.5.1
 Seaborn==0.13.2
