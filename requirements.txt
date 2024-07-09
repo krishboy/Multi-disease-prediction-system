@@ -2,3 +2,6 @@ numpy
 pickle
 streamlit
 scikit-learn
+Seaborn 
+pandas
+matplotlib
