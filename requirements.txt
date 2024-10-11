@@ -5,3 +5,4 @@ scikit-learn==1.5.1
 Seaborn==0.13.2
 pandas==2.2.2
 matplotlib==3.9.1
+altair==4.2.0
